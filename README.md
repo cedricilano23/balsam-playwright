@@ -1,7 +1,3 @@
-<<<<<<< HEAD
-# balsam-playwright
-Automated test suite for Balsam Hill's web application platform using Playwright and Mocha. This framework tests core shopping functionalities including product search, cart operations, and price validations.
-=======
 # Balsam Hill Test Automation
 
 ## Overview
@@ -111,4 +107,3 @@ The framework supports multiple environments through playwright.config.js:
 - Test data separation
 - Modular design
 - Clean code structure
->>>>>>> master

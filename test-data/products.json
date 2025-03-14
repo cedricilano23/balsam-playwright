@@ -1,0 +1,8 @@
+{
+    "searchProducts": {
+        "christmasTree": "Christmas Tree"
+    },
+    "timeouts": {
+        "standard": 10000
+    }
+} 

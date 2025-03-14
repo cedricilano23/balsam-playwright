@@ -1,0 +1,25 @@
+{
+  "name": "balsam-playwright",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:headed": "npx playwright test --headed",
+    "report": "npx playwright show-report",
+    "test:unit": "mocha",
+    "test:unit:watch": "mocha --watch",
+    "test:unit:coverage": "nyc mocha"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "Automation Suite for Balsam Hill",
+  "devDependencies": {
+    "@babel/register": "^7.25.9",
+    "@playwright/test": "^1.51.0",
+    "allure-playwright": "^3.2.0",
+    "chai": "^5.2.0",
+    "mocha": "^11.1.0",
+    "mochawesome": "^7.1.3"
+  }
+}
